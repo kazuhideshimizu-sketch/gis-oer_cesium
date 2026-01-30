@@ -17,6 +17,8 @@
     // 1. Viewerオブジェクトを作成して地球儀を表示
     var viewer = new Cesium.Viewer('cesiumContainer');
 
+    viewer.dataSources.add(Cesium.KmlDataSource.load("./echizen_map.kmz"));
+
     viewer.camera.flyTo({   
      destination : Cesium.Cartesian3.fromDegrees(136.194763, 36.047711, 45000.0)});
 
@@ -42,6 +44,8 @@
         outline : true,
         outlineColor : Cesium.Color.BLACK
       }
+
+    
     });
 
     viewer.zoomTo(viewer.entities);　//レイヤにズーム
