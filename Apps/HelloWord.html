@@ -16,7 +16,7 @@
   <script>
     // 1. Viewerオブジェクトを作成して地球儀を表示
     var viewer = new Cesium.Viewer('cesiumContainer');
-
+    //KMLの読み込み
     viewer.dataSources.add(Cesium.KmlDataSource.load("./echizen_map.kmz"));
 
     viewer.camera.flyTo({   
