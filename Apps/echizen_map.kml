@@ -14213,7 +14213,7 @@
 			<IconStyle>
 				<color>fffffdd8</color>
 			</IconStyle>
-			<BalloonStyle>
+			<>
 				<text><![CDATA[<table border="0">
   <tr><td><b>SAUID</b></td><td>$[flood_assumed_area/SAUID]</td></tr>
   <tr><td><b>SAUPDATE</b></td><td>$[flood_assumed_area/SAUPDATE]</td></tr>
