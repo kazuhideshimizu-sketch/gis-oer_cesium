@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>鳥羽海路_完全表示版</name>
+  
+  <Style id="toba_line_style">
+    <LineStyle>
+      <color>ff00ffff</color> <width>500</width>
+    </LineStyle>
+  </Style>
+
+  <Placemark>
+    <name>鳥羽海路</name>
+    <styleUrl>#toba_line_style</styleUrl>
+    <LineString>
+      <extrude>1</extrude>
+      <tessellate>1</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>
+        137.0200026327415,34.58462509452887,50 
+        137.0214745931836,34.58997152473587,50 
+        137.0127831969978,34.59196617071792,50 
+        136.9873752812573,34.57666618445528,50 
+        136.935430733985,34.52521109802192,50 
+        136.8495696384851,34.48965737859992,50 
+        136.8493157389818,34.48756307167576,50 
+        136.8493020104643,34.48523368156187,50 
+        136.849273027426,34.48515042940174,50 
+        136.8489605659865,34.48365725274207,50 
+        136.8472949232691,34.48081368114712,50
+      </coordinates>
+    </LineString>
+  </Placemark>
+</Document>
+</kml>

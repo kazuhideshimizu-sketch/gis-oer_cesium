@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>練習(Google earth).kml</name>
+	<Schema name="P34-14_18" id="S_P34_14_18_SSSS">
+		<SimpleField type="string" name="P34_001"><displayName>&lt;b&gt;P34_001&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="P34_002"><displayName>&lt;b&gt;P34_002&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="P34_003"><displayName>&lt;b&gt;P34_003&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="P34_004"><displayName>&lt;b&gt;P34_004&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000aa</color>
+			<scale>2</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>P34_001</b></td><td>$[P34-14_18/P34_001]</td></tr>
+  <tr><td><b>P34_002</b></td><td>$[P34-14_18/P34_002]</td></tr>
+  <tr><td><b>P34_003</b></td><td>$[P34-14_18/P34_003]</td></tr>
+  <tr><td><b>P34_004</b></td><td>$[P34-14_18/P34_004]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+		</LineStyle>
+		<PolyStyle>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="hlightPointStyle0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>P34_001</b></td><td>$[P34-14_18/P34_001]</td></tr>
+  <tr><td><b>P34_002</b></td><td>$[P34-14_18/P34_002]</td></tr>
+  <tr><td><b>P34_003</b></td><td>$[P34-14_18/P34_003]</td></tr>
+  <tr><td><b>P34_004</b></td><td>$[P34-14_18/P34_004]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000aa</color>
+			<scale>2</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>P34_001</b></td><td>$[P34-14_18/P34_001]</td></tr>
+  <tr><td><b>P34_002</b></td><td>$[P34-14_18/P34_002]</td></tr>
+  <tr><td><b>P34_003</b></td><td>$[P34-14_18/P34_003]</td></tr>
+  <tr><td><b>P34_004</b></td><td>$[P34-14_18/P34_004]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+		</LineStyle>
+		<PolyStyle>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="normPointStyle0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>P34_001</b></td><td>$[P34-14_18/P34_001]</td></tr>
+  <tr><td><b>P34_002</b></td><td>$[P34-14_18/P34_002]</td></tr>
+  <tr><td><b>P34_003</b></td><td>$[P34-14_18/P34_003]</td></tr>
+  <tr><td><b>P34_004</b></td><td>$[P34-14_18/P34_004]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="pointStyleMap0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>練習(Google earth)</name>
+		<open>1</open>
+		<Placemark>
+			<name>１</name>
+			<description>説明文</description>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18201</SimpleData>
+					<SimpleData name="P34_002">1</SimpleData>
+					<SimpleData name="P34_003">�����s����</SimpleData>
+					<SimpleData name="P34_004">�����s����3-10-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.219452,36.06411999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18201</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">���R�����x��</SimpleData>
+					<SimpleData name="P34_004">�����s���R��7-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.360621,35.99872799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18201</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">�z�U�����x��</SimpleData>
+					<SimpleData name="P34_004">�����s������1-88</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.012789,36.03903600000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18201</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">���������x��</SimpleData>
+					<SimpleData name="P34_004">�����s���H����27-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.136063,36.03236599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18201</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">�X�c�A����</SimpleData>
+					<SimpleData name="P34_004">�����s���X�c������2</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.2265981573834,36.1094971828046,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18201</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">�쐼�A����</SimpleData>
+					<SimpleData name="P34_004">�����s���q�⒬5-58</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.1471510011684,36.14364450354738,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18201</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">�����H�A����</SimpleData>
+					<SimpleData name="P34_004">�����s�����??�6-6</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.265556,36.01924900000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18201</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">�a���A����</SimpleData>
+					<SimpleData name="P34_004">�����s������1-13</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.046308,36.03894700000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>9</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18201</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">�����A����</SimpleData>
+					<SimpleData name="P34_004">�����s���쒬195-7</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.030944,36.08931899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18202</SimpleData>
+					<SimpleData name="P34_002">1</SimpleData>
+					<SimpleData name="P34_003">�։��s����</SimpleData>
+					<SimpleData name="P34_004">�։��s������2-1-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.055544,35.645222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>11</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18204</SimpleData>
+					<SimpleData name="P34_002">1</SimpleData>
+					<SimpleData name="P34_003">���l�s����</SimpleData>
+					<SimpleData name="P34_004">���l�s���蒬6-3</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>135.746647,35.49559299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>12</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18205</SimpleData>
+					<SimpleData name="P34_002">1</SimpleData>
+					<SimpleData name="P34_003">�����s����</SimpleData>
+					<SimpleData name="P34_004">�����s�V�_��1-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.487692,35.980564,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>13</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18205</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">�a���x��</SimpleData>
+					<SimpleData name="P34_004">�����s������16-3-4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.666887,35.90536199999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>14</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18206</SimpleData>
+					<SimpleData name="P34_002">1</SimpleData>
+					<SimpleData name="P34_003">���R�s����</SimpleData>
+					<SimpleData name="P34_004">���R�s����1-1-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.500542,36.060917,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>15</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18207</SimpleData>
+					<SimpleData name="P34_002">1</SimpleData>
+					<SimpleData name="P34_003">�I�]�s����</SimpleData>
+					<SimpleData name="P34_004">�I�]�s���R��13-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.184238,35.95656500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18208</SimpleData>
+					<SimpleData name="P34_002">1</SimpleData>
+					<SimpleData name="P34_003">�������s����</SimpleData>
+					<SimpleData name="P34_004">�������s�s�P3-1-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.229012,36.21136100000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18442</SimpleData>
+					<SimpleData name="P34_002">1</SimpleData>
+					<SimpleData name="P34_003">���l������</SimpleData>
+					<SimpleData name="P34_004">���l�����s25-25</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>135.940619,35.60059999999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18404</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">��������������</SimpleData>
+					<SimpleData name="P34_004">���z�O������74-14</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.200163,35.77345700000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18404</SimpleData>
+					<SimpleData name="P34_002">1</SimpleData>
+					<SimpleData name="P34_003">���z�O������</SimpleData>
+					<SimpleData name="P34_004">���z�O�����哹29-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.194435,35.83515000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18483</SimpleData>
+					<SimpleData name="P34_002">1</SimpleData>
+					<SimpleData name="P34_003">������������</SimpleData>
+					<SimpleData name="P34_004">���������{��136-1-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>135.617885,35.48112800000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18209</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">���������x��</SimpleData>
+					<SimpleData name="P34_004">�z�O�s���c����11-35</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.245918,35.91801300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18209</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">���^���o����</SimpleData>
+					<SimpleData name="P34_004">�z�O�s���^�쒬7-2-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.226395,35.88749600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18210</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">�t�]�����x��</SimpleData>
+					<SimpleData name="P34_004">�����s�t�]��������17-10</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.2195040000001,36.13369,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18210</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">�O�������x��</SimpleData>
+					<SimpleData name="P34_004">�����s�O��������1-5-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.157565,36.21760299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18209</SimpleData>
+					<SimpleData name="P34_002">1</SimpleData>
+					<SimpleData name="P34_003">�z�O�s����</SimpleData>
+					<SimpleData name="P34_004">�z�O�s�{��1-13-7</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.168672,35.903471,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18210</SimpleData>
+					<SimpleData name="P34_002">1</SimpleData>
+					<SimpleData name="P34_003">�����s����</SimpleData>
+					<SimpleData name="P34_004">�����s���䒬���V��1-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.231287,36.16690200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18209</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">���R�o����</SimpleData>
+					<SimpleData name="P34_004">�z�O�s�s�Ӓ�36-84</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.05577,35.887895,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18322</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">���u���x��</SimpleData>
+					<SimpleData name="P34_004">�i�������I�Z�g1-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.397409,36.07816999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18322</SimpleData>
+					<SimpleData name="P34_002">1</SimpleData>
+					<SimpleData name="P34_003">�i����������</SimpleData>
+					<SimpleData name="P34_004">�i�����������t��1-4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.298724,36.09224799999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18210</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">�ۉ������x��</SimpleData>
+					<SimpleData name="P34_004">�����s�ۉ��������ۉ�12-21-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.267045,36.14895199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18404</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">�͖쑍��������</SimpleData>
+					<SimpleData name="P34_004">���z�O���͖�15-16-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.068415,35.82492499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18322</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">�i�����x��</SimpleData>
+					<SimpleData name="P34_004">�i���������Îs10-5</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.328677,36.096263,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18382</SimpleData>
+					<SimpleData name="P34_002">1</SimpleData>
+					<SimpleData name="P34_003">�r�c������</SimpleData>
+					<SimpleData name="P34_004">�r�c������35-4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.344079,35.89038299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18501</SimpleData>
+					<SimpleData name="P34_002">1</SimpleData>
+					<SimpleData name="P34_003">�ዷ�������O������</SimpleData>
+					<SimpleData name="P34_004">�ዷ������1-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>135.908384,35.54888199999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18382</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">���r�c�x��</SimpleData>
+					<SimpleData name="P34_004">�r�c�������J15-6-3</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.3799659999999,35.93209600000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18423</SimpleData>
+					<SimpleData name="P34_002">1</SimpleData>
+					<SimpleData name="P34_003">�z�O������</SimpleData>
+					<SimpleData name="P34_004">�z�O�����c��13-5-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.129765,35.97426400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18442</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">���c�o����</SimpleData>
+					<SimpleData name="P34_004">���l���R��1-11-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>135.9826410011683,35.62728609314736,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18481</SimpleData>
+					<SimpleData name="P34_002">1</SimpleData>
+					<SimpleData name="P34_003">���l������</SimpleData>
+					<SimpleData name="P34_004">���l�������{��71-7-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>135.550968,35.49039199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18423</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">�{���Z���T�[�r�X��</SimpleData>
+					<SimpleData name="P34_004">�z�O���]�g50-80-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.0737139448688,35.94247499650566,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18423</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">�z�O�Z���T�[�r�X��</SimpleData>
+					<SimpleData name="P34_004">�z�O������1-24-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>135.9964969235766,35.93613451656474,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18483</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">���c������������</SimpleData>
+					<SimpleData name="P34_004">�����������c���v��3-41-3</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>135.6821119999999,35.40001400000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18501</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">�㒆����</SimpleData>
+					<SimpleData name="P34_004">�ዷ���s��20-18</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>135.857186,35.46188000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_P34_14_18_SSSS">
+					<SimpleData name="P34_001">18423</SimpleData>
+					<SimpleData name="P34_002">2</SimpleData>
+					<SimpleData name="P34_003">�D�c�Z���T�[�r�X��</SimpleData>
+					<SimpleData name="P34_004">�z�O���D�c36-1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>136.0561117246468,35.96092809895978,0</coordinates>
+			</Point>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	</Folder>
+</Document>
+</kml>

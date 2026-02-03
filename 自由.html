@@ -86,13 +86,14 @@
 
     addGoogle3DTiles();
 
-    viewer.dataSources.add(Cesium.KmlDataSource.load("./KML/echizen_map.kmz"));
-    viewer.dataSources.add(Cesium.KmlDataSource.load("./KML/練習(Google earth).kmz"));
+    viewer.dataSources.add(Cesium.KmlDataSource.load("./KML/echizen_map.kml"));
+    viewer.dataSources.add(Cesium.KmlDataSource.load("./KML/練習(Google earth).kml"));
+    viewer.dataSources.add(Cesium.KmlDataSource.load("./KML/鳥羽海路.kml"));
 
     viewer.zoomTo(viewer.entities);
     viewer.camera.flyTo({   
 
-     destination : Cesium.Cartesian3.fromDegrees(136.194763, 36.047711, 45000.0)});
+     destination : Cesium.Cartesian3.fromDegrees(137.0200026327415,34.58462509452887,4500 )});
 
   </script>
 </body>
