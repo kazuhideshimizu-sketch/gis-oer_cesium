@@ -84,10 +84,14 @@
         }
     }
 
-addGoogle3DTiles();
+    addGoogle3DTiles();
+
+    viewer.dataSources.add(Cesium.KmlDataSource.load("./KML/echizen_map.kmz"));
+    viewer.dataSources.add(Cesium.KmlDataSource.load("./KML/練習(Google earth).kmz"));
 
     viewer.zoomTo(viewer.entities);
     viewer.camera.flyTo({   
+
      destination : Cesium.Cartesian3.fromDegrees(136.194763, 36.047711, 45000.0)});
 
   </script>
