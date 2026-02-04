@@ -1,0 +1,41 @@
+[
+  {
+    "id": "document",
+    "name": "TOBA_FLIGHT_DATA",
+    "version": "1.0",
+    "clock": {
+      "interval": "2026-02-04T00:00:00Z/2026-02-04T23:59:59Z",
+      "currentTime": "2026-02-04T02:00:00Z",
+      "multiplier": 10,
+      "range": "LOOP_STOP"
+    }
+  },
+  {
+    "id": "moving_airplane",
+    "availability": "2026-02-04T00:00:00Z/2026-02-04T23:59:59Z",
+    "model": {
+      "gltf": 4418353,
+      "scale": 5.0,
+      "minimumPixelSize": 128
+    },
+    "path": {
+      "width": 3,
+      "material": { "solidColor": { "color": { "rgba": [0, 255, 255, 255] } } }
+    },
+    "orientation": { "velocityReference": "#position" },
+    "position": {
+      "interpolationAlgorithm": "HERMITE",
+      "interpolationDegree": 2,
+      "epoch": "2026-02-04T00:00:00Z",
+      "cartographicDegrees": [
+        0,   137.0200026327415, 34.58462509452887, 100,
+        60,  137.0214745931836, 34.58997152473587, 100,
+        120, 137.0127831969978, 34.59196617071792, 100,
+        240, 136.9873752812573, 34.57666618445528, 100,
+        360, 136.935430733985, 34.52521109802192, 100,
+        480, 136.8495696384851, 34.48965737859992, 100,
+        600, 136.8472949232691, 34.48081368114712, 100
+      ]
+    }
+  }
+]

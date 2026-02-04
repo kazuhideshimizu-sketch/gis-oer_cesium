@@ -6,7 +6,7 @@
   },
   {
     "id": "toba_corridor",
-    "name": "海路の幅（300m）",
+    "name": "海路の幅（100m）",
     "corridor": {
       "outline": false,
       "positions": {

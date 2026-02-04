@@ -1,0 +1,37 @@
+[
+  {
+    "id": "document",
+    "name": "TOBA_ANIMATION",
+    "version": "1.0",
+    "clock": {
+      "interval": "2026-02-04T00:00:00Z/2026-02-04T12:00:00Z",
+      "currentTime": "2026-02-04T00:00:00Z",
+      "multiplier": 60,
+      "range": "LOOP_STOP"
+    }
+  },
+  {
+    "id": "moving_airplane",
+    "availability": "2026-02-04T00:00:00Z/2026-02-04T12:00:00Z",
+    "model": {
+      "gltf": "https://sandcastle.cesium.com/SampleData/models/CesiumAir/Cesium_Air.glb",
+      "scale": 10.0,
+      "minimumPixelSize": 128
+    },
+    "orientation": { "velocityReference": "#position" },
+    "position": {
+      "interpolationAlgorithm": "HERMITE",
+      "interpolationDegree": 2,
+      "epoch": "2026-02-04T00:00:00Z",
+      "cartographicDegrees": [
+        0,   137.0200, 34.5846, 1000,
+        60,  137.0214, 34.5899, 1000,
+        120, 137.0127, 34.5919, 1000,
+        240, 136.9873, 34.5766, 1000,
+        360, 136.9354, 34.5252, 1000,
+        480, 136.8495, 34.4896, 1000,
+        600, 136.8472, 34.4808, 1000
+      ]
+    }
+  }
+]

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
-  <name>鳥羽海路_完全表示版</name>
+  <name>鳥羽海路</name>
   
   <Style id="toba_line_style">
     <LineStyle>
